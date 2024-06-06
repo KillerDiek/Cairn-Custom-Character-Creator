@@ -1,0 +1,22 @@
+<form>
+    <div class="form-group">
+        <label for="character-options">Character Options:</label>
+        <select id="character-options" name="ccoptions">
+            {{#each options.compendiums}}
+                <option value="{{this.value}}" {{#if (eq this.value ../options.currentOptions)}}selected{{/if}}>{{this.label}}</option>
+            {{/each}}
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="character-traits">Character Traits:</label>
+        <select id="character-traits" name="ctraits">
+            {{#each options.compendiums}}
+                <option value="{{this.value}}" {{#if (eq this.value ../options.currentTraits)}}selected{{/if}}>{{this.label}}</option>
+            {{/each}}
+        </select>
+    </div>
+    <div class="form-group">
+        <button type="submit">Save</button>
+    </div>
+</form>
+  

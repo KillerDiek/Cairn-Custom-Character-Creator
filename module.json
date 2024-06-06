@@ -1,0 +1,39 @@
+{
+  "id": "cairn-custom-character-creation",
+  "title": "Cairn Custom Character Creation",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "cairn",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "Allows users to create custom character creation tables.",
+  "authors": [
+    {
+      "name": "KillerDiek",
+      "discord": "KillerDiek",
+      "flags": {}
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json"
+    }
+  ],
+  "esmodules": [
+    "./modules/module.js"
+  ],
+  "styles": [
+    "./styles/main.css"
+  ]
+}
