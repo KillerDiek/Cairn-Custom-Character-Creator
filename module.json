@@ -35,5 +35,8 @@
   ],
   "styles": [
     "./styles/main.css"
-  ]
+  ],
+  "url": "https://github.com/KillerDiek/Cairn-Custom-Character-Creator",
+  "manifest": "https://raw.githubusercontent.com/KillerDiek/Cairn-Custom-Character-Creator/main/module.json",
+  "download": "https://github.com/KillerDiek/Cairn-Custom-Character-Creator/releases/download/v0.0.1/cairn-custom-character-creator-v0.0.1.zip"
 }
